@@ -1,0 +1,239 @@
+body
+{
+	background-color: #245076;
+	font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+	font-weight: 400;
+	color: white;
+	text-align: center;
+	font-size: 0.8em;
+}
+div
+{
+	margin: 0px;
+	padding: 5px;
+	vertical-align: top;
+}
+a
+{
+	text-decoration: none;
+}
+.container
+{
+	display: block;
+	width: 970;
+	padding: 0px;
+}
+.small
+{
+	font-size: 0.85em;			
+}
+.header
+{
+	display: block;
+	background-color: #245076;
+	height: 95px;
+}
+.python
+{
+	display: inline-block;
+	width: 320px;
+	height: 95px;
+}
+.python img
+{
+	height: 83px;
+}
+.search
+{
+	display: inline-block;
+	padding: 0px;
+	width: 50%;
+	max-width: 500px;
+	height: 95px;
+	text-align: right;
+	vertical-align: middle;
+	font-size: 0.9em;
+	font-weight: lighter;
+	letter-spacing: 1px;
+}
+.search span
+{
+	display: block;
+	margin: auto 30px;
+}
+.search a
+{
+	text-decoration: underline;
+	color: #fed331;
+}
+.searchbox
+{
+	display: inline-block;
+	background-color: #444444;
+	margin: 6px;
+	padding: 10px;
+	width: 200px;
+	height: 22px;
+	text-align: center;
+	border-radius: 4px;
+	box-shadow: 2px 2px 2px black;
+}
+.searchbox input[type="text"]
+{
+	position: relative;
+	display: inline-block;
+	width: 120px;
+	height: 20px;
+	bottom: 1px;
+}
+.searchbox input[type="text"]::placeholder
+{
+	position: relative;
+	font-size: 1em;
+	color: gray;
+	text-align: center;
+	vertical-align: middle;
+	bottom: 1px;
+}
+.searchbox input[type="submit"]
+{
+	position: relative;
+	display: inline-block;
+	background-color: #245076;
+	width: 32px;
+	height: 24px;
+	font-size: 0.8em;
+	color: white;
+	bottom: 3px;
+	border: 1px outset;
+	border-radius: 5px;
+}
+.navbar
+{
+	display: inline-block;
+	background-color: #437bac;
+	padding: 10px;
+	width: 700px;
+	border-radius: 4px;
+	box-shadow: 2px 2px 2px black;
+}
+.navbar > a
+{
+	display: inline-block;
+	padding: 0px;
+	margin: 0px 15px;
+	font-size: 1.35em;
+	font-weight: 200;
+	color: white;
+}
+.main
+{
+	display: block;
+}
+.sidebar
+{
+	display: inline-block;
+	width: 170px;
+	font-size: 1.15em;
+	font-weight: 100;
+	letter-spacing: 1px;
+}
+.sidebar ul
+{
+	list-style: none;
+	margin: 0em -2em;
+	padding: 0px;
+}
+.sidebar li
+{
+	margin: 0.67em 0em;
+}
+.sidebar ul li:before
+{
+	content: "\00BB \0020";
+	color: #fed331;
+}
+.sidebar a
+{
+	text-decoration: underline;
+	color: white;
+}
+.article
+{
+	display: inline-block;
+	width: 540px;
+	font-weight: lighter;
+	letter-spacing: 1px;
+}
+.poem
+{
+	color: #fed331;
+    font-size: 1.5em;
+	font-weight: lighter;
+	font-style: italic;
+	letter-spacing: 1px;
+	margin: 0.67em 0em;
+}
+.poem p
+{
+	margin: 0.4em 0em;
+}
+.article h3
+{
+	font-size: 1.15em;
+	font-weight: 100;
+	letter-spacing: 1px;
+}
+.guides
+{
+	display: block;
+	background-color: white;
+}
+.guide
+{
+	display: inline-block;
+	width: 350px;
+	font-size: 0.95em;
+	color: black;
+}
+.guide p
+{
+	margin: auto;
+	width: 300px;
+}
+.guide ul
+{
+	margin: 3px;
+	list-style-type: square;
+}
+.guide a
+{
+	color: #7fb1dd;
+}
+.guide h2
+{
+	margin: 7px;
+	font-size: 1.25;
+	font-weight: bold;
+}
+.guideline
+{
+	display: block;
+	background-color: #72a7d5;
+	width: 350px;
+	height: 3px;
+	padding: 0px;
+}
+.footer
+{
+	display: block;
+	background: linear-gradient(#305678,#407aae);
+	padding-top: 3.5em;
+	color: #0699c7;
+}
+.footer a
+{
+	font-size: 1.15em;
+	margin: 1.5em 1.755em;
+	color: #7fb1dd;
+}
